@@ -61,7 +61,9 @@
         "Login": "लॉगिन",
         "MarksheetMeritList": "मार्कशीट मेरिट सूची",
         "GetMarksheet": "मार्कशीट प्राप्त करें",
-        "Javadoc": "जावाडॉक"
+        "Javadoc": "जावाडॉक",
+        "AddVenue": "वेन्यू जोड़ें",
+        "VenueList": "वेन्यू सूची"
     },
     "LocaleSelect": {
         "Select": "-------चुनें-------",
@@ -115,6 +117,23 @@
         "Course": "कोर्स",
         "Subject": "विषय",
         "Timetable": "समय सारणी",
-        "Faculty": "फैकल्टी"
+        "Faculty": "फैकल्टी",
+        "Venue": "वेन्यू"
+    },
+    "VenueForm": {
+        "AddVenue": "वेन्यू जोड़ें",
+        "UpdateVenue": "वेन्यू अपडेट करें",
+        "VenueName": "वेन्यू नाम",
+        "City": "शहर",
+        "Rating": "रेटिंग",
+        "Capacity": "क्षमता",
+        "Placeholders": {
+            "VenueName": "वेन्यू नाम दर्ज करें",
+            "City": "शहर दर्ज करें",
+            "Capacity": "क्षमता दर्ज करें"
+        },
+        "SelectOptions": {
+            "SelectRating": "-- रेटिंग चुनें --"
+        }
     }
 }

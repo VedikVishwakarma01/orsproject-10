@@ -60,7 +60,9 @@
         "Login": "Login",
         "MarksheetMeritList": "Marksheet Merit List",
         "GetMarksheet": "Get Marksheet",
-        "Javadoc": "Javadoc"
+        "Javadoc": "Javadoc",
+        "AddVenue": "Add Venue",
+        "VenueList": "Venue List"
     },
     "LocaleSelect": {
         "Select": "-------Select-------",
@@ -138,6 +140,23 @@
         "Course": "Course",
         "Subject": "Subject",
         "Timetable": "Timetable",
-        "Faculty": "Faculty"
+        "Faculty": "Faculty",
+        "Venue": "Venue"
+    },
+    "VenueForm": {
+        "AddVenue": "Add Venue",
+        "UpdateVenue": "Update Venue",
+        "VenueName": "Venue Name",
+        "City": "City",
+        "Rating": "Rating",
+        "Capacity": "Capacity",
+        "Placeholders": {
+            "VenueName": "Enter Venue Name",
+            "City": "Enter City",
+            "Capacity": "Enter Capacity"
+        },
+        "SelectOptions": {
+            "SelectRating": "-- Select Rating --"
+        }
     }
 }

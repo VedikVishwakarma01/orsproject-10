@@ -52,6 +52,8 @@ import { GymtrainerComponent } from './gymtrainer/gymtrainer.component';
 import { GymtrainerListComponent } from './gymtrainer/gymtrainer-list.component';
 import { SystemeventComponent } from './systemevent/systemevent.component';
 import { SystemevenListtComponent } from './systemevent/systemeven-listt.component';
+import { VenueComponent } from './venue/venue.component';
+import { VenueListComponent } from './venue/venue-list.component';
 
 const routes: Routes = [
   {
@@ -428,7 +430,23 @@ const routes: Routes = [
   {
     path: 'systemevent/:id',
     component: SystemeventComponent
+  },
+
+  {
+    path: 'venue',
+    component: VenueComponent
+  },
+
+  {
+    path: 'venuelist',
+    component: VenueListComponent
+  },
+
+  {
+    path: 'venue/:id',
+    component: VenueComponent
   }
+
 
   
 

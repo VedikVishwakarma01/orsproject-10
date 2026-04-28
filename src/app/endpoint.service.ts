@@ -39,7 +39,7 @@ export class EndpointService {
 
  public SYSTEMEVENT = this.SERVER_URL + "/SystemEvent";
 
-
+public VENUE = this.SERVER_URL + "/Venue";
 
 
 }

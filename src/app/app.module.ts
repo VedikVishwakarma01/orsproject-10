@@ -64,6 +64,8 @@ import { GymtrainerComponent } from './gymtrainer/gymtrainer.component';
 import { GymtrainerListComponent } from './gymtrainer/gymtrainer-list.component';
 import { SystemeventComponent } from './systemevent/systemevent.component';
 import { SystemevenListtComponent } from './systemevent/systemeven-listt.component';
+import { VenueComponent } from './venue/venue.component';
+import { VenueListComponent } from './venue/venue-list.component';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -127,7 +129,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     GymtrainerComponent,
     GymtrainerListComponent,
     SystemeventComponent,
-    SystemevenListtComponent
+    SystemevenListtComponent,
+    VenueComponent,
+    VenueListComponent
   ],
   imports: [
     BrowserModule,
